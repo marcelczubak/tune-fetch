@@ -8,7 +8,7 @@ console.log('Vite config loaded — allowedHosts: all')
 export default defineConfig({
   build: {
     rollupOptions: {
-        external: ['react-icons/tb'], 
+        external: ['react-icons/tb', 'react-icons/fa6', 'react-icons/rx', 'react-icons/io5',], 
     },
   },
   plugins: [react(), tailwindcss()],

@@ -31,7 +31,6 @@ function App() {
 
   return (
     <div className="bg-stone-100 dark:bg-zinc-900 min-w-4xl max-w-5xl py-8 rounded-2xl border border-rose-100 dark:border-rose-700/20 shadow-2xl shadow-rose-300/30 dark:shadow-rose-500/25 flex flex-col">
-        
         <div className="p-6">
             <div className="flex justify-center mb-8">
               <NavBar />
