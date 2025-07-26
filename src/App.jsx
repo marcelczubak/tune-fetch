@@ -15,7 +15,6 @@ function App() {
     if (query.length > 0) {
       const res = await fetch(`https://itunes.apple.com/search?media=music&attribute=mixTerm&country=IE&term=${encodeURIComponent(query)}&limit=30`);
       const data = await res.json();
-      console.log(data.results);
       if (data.results.length > 0) {
         setSearchResults(data.results);
         setQuery('');
