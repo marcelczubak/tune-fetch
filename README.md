@@ -37,8 +37,8 @@ This app is only a 'prototype' and serves as an entry project in my dev journey 
 ![Playlist View](./public/screenshots/playlistViewLight.png)
 <img src="./public/screenshots/customPlaylistLight.png" alt="Playlist Light" width="300">
 <img src="./public/screenshots/playlistViewDark.png" alt="Playlist Dark" width="300">
+<img src="./public//screenshots/playlistDark.png" alt="Playlist Close-Up Dark" width="300">
 ![Playlists](./public/screenshots/playlistsLight.png)
-![Playlist Close-Up (dark)](./public//screenshots/playlistDark.png)
 
 ---
 
