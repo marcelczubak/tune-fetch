@@ -1,12 +1,47 @@
-# React + Vite
+# 🎧 TuneFetch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive music playlist web app prototype built with React, Tailwind and the iTunes Search API. Search for songs, create custom playlists, modify your collection and save them to your TuneFetch dashboard.
 
-Currently, two official plugins are available:
+This is a Codecademy project from the Full-Stack Engineer Career Path.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App Screenshot](./public/screenshots/fullViewLight.png) 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔍 Search for songs, albums, and artists using the iTunes Search API
+- 🎶 Create, edit, and view custom playlists
+- ➕ Add or remove tracks to custom playlists
+- 🟣 Album artworks create subtle backgrounds for tracks and playlist covers
+- 💾 Save playlists to your TuneFetch dashboard
+- 🌓 Automatic light/dark mode based on device preferences
+- ⚠️ Error handling and pop-ups
+- 📱 Fullscreen desktop view
+
+This app is only a 'prototype' and serves as an entry project in my dev journey 😉
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, Javascript, Tailwind CSS, Vite
+- **API**: iTunes Search API
+- **Icons**: React Icons
+
+---
+
+## 📸 Screenshots
+
+![Search View (dark)](./public/screenshots/searchViewDark.png)
+![Playlist View](./public/screenshots/playlistViewLight.png)
+![Custom Playlist](./public/screenshots/customPlaylistLight.png)
+![View Playlist (dark)](./public/screenshots/playlistViewDark.png)
+![Playlists](./public/screenshots/playlistsLight.png)
+![Playlist Close-Up (dark)](./public//screenshots/playlistDark.png)
+
+---
+
+## 🌍 Try it out!
+
+<!-- Link will go here -->

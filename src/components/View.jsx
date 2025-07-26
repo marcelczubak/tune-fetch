@@ -19,17 +19,14 @@ const View = ({ setShowPlaylistError, showPlaylistError, showError, showSearchEr
                 songs: [...playlistToView.songs, songToAdd],
             };
             setPlaylistToView(updatedPlaylist);
-    
             setPlaylists((prev) =>
                 prev.map((p) => (p.id === updatedPlaylist.id ? updatedPlaylist : p))
             );
         } else {
             setCustomPlaylist([...customPlaylist, songToAdd]);
         }
-
         setSearchResults(searchResults.filter(song => song.trackId !== songToAdd.trackId));
     };
-    
 
     const removeFromPlaylist = (songToRemove) => {
         if (playlistToView) {
@@ -38,16 +35,14 @@ const View = ({ setShowPlaylistError, showPlaylistError, showError, showSearchEr
                 songs: playlistToView.songs.filter(song => song.trackId !== songToRemove.trackId),
             };
             setPlaylistToView(updatedPlaylist);
-    
             setPlaylists((prev) =>
                 prev.map((p) => (p.id === updatedPlaylist.id ? updatedPlaylist : p))
             );
         } else {
             setCustomPlaylist(customPlaylist.filter(song => song.trackId !== songToRemove.trackId));
+            setSearchResults([songToRemove, ...searchResults]); // this line 
         }
-        setSearchResults([songToRemove, ...searchResults]);
     };
-    
 
     const savePlaylist = () => {
         if (playlistName.length == 0) {

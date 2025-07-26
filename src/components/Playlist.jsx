@@ -7,9 +7,8 @@ const Playlist = ({ playlist, setPlaylistToView, playlistToView }) => {
         (playlistToView?.id === playlist.id) ? setPlaylistToView(null) : setPlaylistToView(playlist);
     }
 
-
   return (
-    <div className='relative w-64 h-64 rounded-xl flex-shrink-0 flex justify-center overflow-hidden'>
+    <div className='relative w-64 h-64 shadow-lg rounded-xl flex-shrink-0 flex justify-center overflow-hidden hover:scale-[1.02] transition-all duration-300 mx-2'>
         <img className='saturate-[1.4] brightness-[1.1] scale-150 absolute opacity-90 object-cover inset-0 w-full h-full blur-md' src={playlist.image || 'https://media.pitchfork.com/photos/65770f942ea681f1383d0597/master/pass/Childish-Gambino-Because-the-Internet.jpg'}/>
         <div className='absolute inset-0 w-full h-full backdrop-blur-2xl'></div>
 

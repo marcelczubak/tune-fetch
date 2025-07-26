@@ -31,35 +31,34 @@ function App() {
   }
 
   return (
-    <div className="bg-stone-100 min-w-7/10 max-w-6xl py-8 rounded-2xl border border-rose-100 shadow-2xl shadow-rose-300/30 flex flex-col">
+    <div className="bg-stone-100 dark:bg-zinc-900 min-w-4xl max-w-5xl py-8 rounded-2xl border border-rose-100 dark:border-rose-700/20 shadow-2xl shadow-rose-300/30 dark:shadow-rose-500/25 flex flex-col">
         
         <div className="p-6">
             <div className="flex justify-center mb-8">
-            <NavBar />
+              <NavBar />
             </div>
             <div className="flex justify-center">
-            <SearchBar fetchSongs={fetchSongs} setQuery={setQuery} query={query} />
+              <SearchBar fetchSongs={fetchSongs} setQuery={setQuery} query={query} />
             </div>
         </div>
 
         {searchedOnce && 
         <>
-            <hr className="border-t border-gray-200 mx-6 my-3" />
+            <hr className="border-t border-gray-200 dark:border-gray-700 mx-6 my-3" />
             <div className="flex-grow p-6">
                 <View 
-                showError={showError} 
-                setShowPlaylistError={setShowPlaylistError}
-                showPlaylistError={showPlaylistError}
-                showSearchError={showSearchError}
-                searchResults={searchResults} 
-                setQuery={setQuery} 
-                setSearchResults={setSearchResults}  />
+                  showError={showError} 
+                  setShowPlaylistError={setShowPlaylistError}
+                  showPlaylistError={showPlaylistError}
+                  showSearchError={showSearchError}
+                  searchResults={searchResults} 
+                  setQuery={setQuery} 
+                  setSearchResults={setSearchResults}  
+                />
             </div>
         </>
         }
     </div>
-    
-    
   );
 }
 

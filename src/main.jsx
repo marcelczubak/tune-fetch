@@ -6,7 +6,7 @@ import Footer from './components/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className="bg-rose-50/50 w-full min-h-screen flex flex-col items-center justify-center p-6">
+    <div className="bg-rose-50/50 dark:bg-gray-900 w-full min-h-screen flex flex-col items-center justify-center p-6">
         <App />
         <div className='sticky bottom-0 mt-2'>
             <Footer />
