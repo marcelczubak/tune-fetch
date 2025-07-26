@@ -35,9 +35,8 @@ This app is only a 'prototype' and serves as an entry project in my dev journey 
 
 ![Search View (dark)](./public/screenshots/searchViewDark.png)
 ![Playlist View](./public/screenshots/playlistViewLight.png)
-![Custom Playlist](./public/screenshots/customPlaylistLight.png)
-<img src="./public/screenshots/customPlaylistLight.png" alt="Alt Text" width="300">
-![View Playlist (dark)](./public/screenshots/playlistViewDark.png)
+<img src="./public/screenshots/customPlaylistLight.png" alt="Playlist Light" width="300">
+<img src="./public/screenshots/playlistViewDark.png" alt="Playlist Dark" width="300">
 ![Playlists](./public/screenshots/playlistsLight.png)
 ![Playlist Close-Up (dark)](./public//screenshots/playlistDark.png)
 
