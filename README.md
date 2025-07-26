@@ -44,4 +44,4 @@ This app is only a 'prototype' and serves as an entry project in my dev journey 
 
 ## 🌍 Try it out!
 
-<!-- Link will go here -->
+[TuneFetch](https://tunefetch.netlify.app)
